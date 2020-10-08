@@ -39,9 +39,9 @@ def callback():
 def handle_message(event):
     req = event.message.text
 
-    if req in '':
+    if 'hoge' in req:
         answer = ''
-    elif req in 'a':
+    elif 'huga' in req:
         answer = ''
     else:
         answer = ''
